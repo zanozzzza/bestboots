@@ -1,0 +1,151 @@
+body {
+  margin: 0 auto;
+}
+
+.offcanvas {
+  background: rgba(255, 148, 1);
+  color: #FFF;
+  font-weight: 700;
+}
+
+.container {
+  padding: 50px;
+}
+
+.h6 {
+  color: #FF9401;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 125%;
+}
+
+.h1 {
+  color: #232323;
+  font-family: Gilroy;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.5%;
+}
+
+.p1 {
+  color: #3F3232;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 1000;
+  line-height: 160%;
+}
+
+.btn-warning {
+  font-family: Gilroy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 31px;
+  background: #FF9401;
+  color: white;
+}
+
+.accordion {
+  border-radius: 8px;
+  border: 1px solid #FF9401;
+  background: #FFF;
+  --bs-accordion-btn-focus-border-color: #FF9401 !important;
+  --bs-accordion-active-color: #000000 !important;
+  ;
+}
+
+.accordion-header {
+  border-radius: 8px;
+  border-bottom: 1px solid #FF9401;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.cards {
+  margin: 0px 100px;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+input {
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.form-control {
+  border: 1px solid #FF9401 !important;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.footer {
+  background-color: #ffb349;
+  margin: 0px;
+  width: 100%;
+}
+
+.list-group-item {
+  background-color: #ffb349;
+}
+
+.var {
+  display: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffb349 !important;
+  color: black !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+@media (max-width: 1200px) {
+  .h1 {
+    font-size: 50px;
+  }
+
+  #c2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 20px;
+  }
+
+  #c3 {
+    display: none;
+  }
+}
+
+@media (max-width: 785px) {
+
+  .var {
+    display: block;
+    align-items: center;
+  }
+
+  .main {
+    display: none;
+  }
+
+  .h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 30px 10px;
+  }
+}
